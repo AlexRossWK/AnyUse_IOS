@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BackendTalk
 
 @MainActor
 class AddUpdateFlagViewModel: ObservableObject {

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BackendTalk
 
 struct FlagListView: View {
     @StateObject var viewModel: FlagListViewModel

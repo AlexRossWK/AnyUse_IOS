@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum HttpError: String, Error, Identifiable {
-    var id: String { localizedDescription }
+public enum HttpError: String, Error, Identifiable {
+    public var id: String { localizedDescription }
     case badURL = "Can't create URL object"
     case badResponse = "Bad response. Status code is not 2**"
     case decodingError = "Error in process of decoding"

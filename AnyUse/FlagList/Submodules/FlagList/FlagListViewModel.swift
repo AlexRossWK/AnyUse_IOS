@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BackendTalk
 
 class FlagListViewModel: ObservableObject {
     let service: FlagService

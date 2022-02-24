@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30F2EF027C6BD3100776ACE /* BackendTalk in Frameworks */ = {isa = PBXBuildFile; productRef = E30F2EEF27C6BD3100776ACE /* BackendTalk */; };
 		E3D6A6B627C17E0A00AA5377 /* AnyUseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6B527C17E0A00AA5377 /* AnyUseApp.swift */; };
 		E3D6A6B827C17E0A00AA5377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6B727C17E0A00AA5377 /* ContentView.swift */; };
 		E3D6A6BA27C17E0D00AA5377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D6A6B927C17E0D00AA5377 /* Assets.xcassets */; };
@@ -19,16 +20,11 @@
 		E3D6A6E627C1804600AA5377 /* FlagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6E527C1804600AA5377 /* FlagListView.swift */; };
 		E3D6A6E827C1812800AA5377 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6E727C1812800AA5377 /* Flag.swift */; };
 		E3D6A6EA27C1822600AA5377 /* FlagListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6E927C1822600AA5377 /* FlagListViewModel.swift */; };
-		E3D6A6EE27C18A3B00AA5377 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6ED27C18A3B00AA5377 /* HttpClient.swift */; };
-		E3D6A6F027C18B7300AA5377 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6EF27C18B7300AA5377 /* HttpError.swift */; };
 		E3D6A6F227C18E1100AA5377 /* FlagService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6F127C18E1100AA5377 /* FlagService.swift */; };
 		E3D6A6F527C18E7000AA5377 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6F427C18E7000AA5377 /* Constants.swift */; };
 		E3D6A6F727C1A36C00AA5377 /* FlagListRouteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6F627C1A36C00AA5377 /* FlagListRouteType.swift */; };
 		E3D6A70027C1A60900AA5377 /* AddUpdateFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6FF27C1A60900AA5377 /* AddUpdateFlagView.swift */; };
 		E3D6A70227C1A63E00AA5377 /* AddUpdateFlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A70127C1A63E00AA5377 /* AddUpdateFlagViewModel.swift */; };
-		E3D6A70427C1AAD000AA5377 /* HttpMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A70327C1AAD000AA5377 /* HttpMethods.swift */; };
-		E3D6A70627C1AB3000AA5377 /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A70527C1AB3000AA5377 /* MimeType.swift */; };
-		E3D6A70827C1AB7600AA5377 /* HttpHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A70727C1AB7600AA5377 /* HttpHeaders.swift */; };
 		E3D6A70A27C2CC5D00AA5377 /* FlagListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A70927C2CC5D00AA5377 /* FlagListRouter.swift */; };
 		E3D6A70C27C2CCFD00AA5377 /* FlagListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A70B27C2CCFD00AA5377 /* FlagListAssembly.swift */; };
 		E3D6A70E27C2CD0F00AA5377 /* AddUpdateFlagAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A70D27C2CD0F00AA5377 /* AddUpdateFlagAssembly.swift */; };
@@ -97,6 +93,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E30F2EED27C6BD0600776ACE /* BackendTalk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BackendTalk; sourceTree = "<group>"; };
 		E3D6A6B227C17E0A00AA5377 /* AnyUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D6A6B527C17E0A00AA5377 /* AnyUseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUseApp.swift; sourceTree = "<group>"; };
 		E3D6A6B727C17E0A00AA5377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,16 +109,11 @@
 		E3D6A6E527C1804600AA5377 /* FlagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagListView.swift; sourceTree = "<group>"; };
 		E3D6A6E727C1812800AA5377 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
 		E3D6A6E927C1822600AA5377 /* FlagListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagListViewModel.swift; sourceTree = "<group>"; };
-		E3D6A6ED27C18A3B00AA5377 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
-		E3D6A6EF27C18B7300AA5377 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		E3D6A6F127C18E1100AA5377 /* FlagService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagService.swift; sourceTree = "<group>"; };
 		E3D6A6F427C18E7000AA5377 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E3D6A6F627C1A36C00AA5377 /* FlagListRouteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagListRouteType.swift; sourceTree = "<group>"; };
 		E3D6A6FF27C1A60900AA5377 /* AddUpdateFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateFlagView.swift; sourceTree = "<group>"; };
 		E3D6A70127C1A63E00AA5377 /* AddUpdateFlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateFlagViewModel.swift; sourceTree = "<group>"; };
-		E3D6A70327C1AAD000AA5377 /* HttpMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethods.swift; sourceTree = "<group>"; };
-		E3D6A70527C1AB3000AA5377 /* MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
-		E3D6A70727C1AB7600AA5377 /* HttpHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHeaders.swift; sourceTree = "<group>"; };
 		E3D6A70927C2CC5D00AA5377 /* FlagListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagListRouter.swift; sourceTree = "<group>"; };
 		E3D6A70B27C2CCFD00AA5377 /* FlagListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagListAssembly.swift; sourceTree = "<group>"; };
 		E3D6A70D27C2CD0F00AA5377 /* AddUpdateFlagAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateFlagAssembly.swift; sourceTree = "<group>"; };
@@ -177,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30F2EF027C6BD3100776ACE /* BackendTalk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,13 +190,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E30F2EEE27C6BD3100776ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3D6A6A927C17E0A00AA5377 = {
 			isa = PBXGroup;
 			children = (
+				E30F2EED27C6BD0600776ACE /* BackendTalk */,
 				E3D6A6B427C17E0A00AA5377 /* AnyUse */,
 				E3D6A6CA27C17E0D00AA5377 /* AnyUseTests */,
 				E3D6A6D427C17E0D00AA5377 /* AnyUseUITests */,
 				E3D6A6B327C17E0A00AA5377 /* Products */,
+				E30F2EEE27C6BD3100776ACE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,9 +226,7 @@
 				E3D6A75D27C4E61500AA5377 /* Alerts */,
 				E3D6A72527C4E5A500AA5377 /* UIRelationship */,
 				E3D6A71427C43EFD00AA5377 /* Extensions */,
-				E3D6A71327C43E0E00AA5377 /* CustomViews */,
 				E3D6A6F327C18E6200AA5377 /* Utilities */,
-				E3D6A6EC27C18A0F00AA5377 /* BackendTalk */,
 				E3D6A6E427C1801300AA5377 /* FlagList */,
 				E3D6A6EB27C189FC00AA5377 /* Main */,
 				E3D6A6BB27C17E0D00AA5377 /* Preview Content */,
@@ -283,18 +283,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		E3D6A6EC27C18A0F00AA5377 /* BackendTalk */ = {
-			isa = PBXGroup;
-			children = (
-				E3D6A6ED27C18A3B00AA5377 /* HttpClient.swift */,
-				E3D6A6EF27C18B7300AA5377 /* HttpError.swift */,
-				E3D6A70327C1AAD000AA5377 /* HttpMethods.swift */,
-				E3D6A70527C1AB3000AA5377 /* MimeType.swift */,
-				E3D6A70727C1AB7600AA5377 /* HttpHeaders.swift */,
-			);
-			path = BackendTalk;
-			sourceTree = "<group>";
-		};
 		E3D6A6F327C18E6200AA5377 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -348,13 +336,6 @@
 				E3D6A6E727C1812800AA5377 /* Flag.swift */,
 			);
 			path = DTO;
-			sourceTree = "<group>";
-		};
-		E3D6A71327C43E0E00AA5377 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		E3D6A71427C43EFD00AA5377 /* Extensions */ = {
@@ -484,6 +465,9 @@
 			dependencies = (
 			);
 			name = AnyUse;
+			packageProductDependencies = (
+				E30F2EEF27C6BD3100776ACE /* BackendTalk */,
+			);
 			productName = AnyUse;
 			productReference = E3D6A6B227C17E0A00AA5377 /* AnyUse.app */;
 			productType = "com.apple.product-type.application";
@@ -533,6 +517,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = AlexRoss;
 				TargetAttributes = {
 					E3D6A6B127C17E0A00AA5377 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -602,12 +587,10 @@
 				E3D6A6C227C17E0D00AA5377 /* AnyUse.xcdatamodeld in Sources */,
 				E3D6A76527C4E63300AA5377 /* BannerView.swift in Sources */,
 				E3D6A6F527C18E7000AA5377 /* Constants.swift in Sources */,
-				E3D6A6F027C18B7300AA5377 /* HttpError.swift in Sources */,
 				E3D6A72227C4410C00AA5377 /* UINib+InitByType.swift in Sources */,
 				E3D6A71E27C440B800AA5377 /* UIViewController+Keyboard.swift in Sources */,
 				E3D6A74927C4E5F000AA5377 /* RNBottomToSuperview.swift in Sources */,
 				E3D6A76627C4E63300AA5377 /* AlertManager.swift in Sources */,
-				E3D6A70627C1AB3000AA5377 /* MimeType.swift in Sources */,
 				E3D6A74E27C4E5F000AA5377 /* RNLeftToSuperview.swift in Sources */,
 				E3D6A74727C4E5F000AA5377 /* RNTopToSuperview.swift in Sources */,
 				E3D6A74527C4E5F000AA5377 /* UIRelation.swift in Sources */,
@@ -616,8 +599,6 @@
 				E3D6A6E827C1812800AA5377 /* Flag.swift in Sources */,
 				E3D6A76C27C4F9D300AA5377 /* Core.swift in Sources */,
 				E3D6A74B27C4E5F000AA5377 /* RNTopAndBottomToSuperview.swift in Sources */,
-				E3D6A70427C1AAD000AA5377 /* HttpMethods.swift in Sources */,
-				E3D6A6EE27C18A3B00AA5377 /* HttpClient.swift in Sources */,
 				E3D6A75627C4E5F000AA5377 /* RNCenterToView.swift in Sources */,
 				E3D6A6EA27C1822600AA5377 /* FlagListViewModel.swift in Sources */,
 				E3D6A76827C4E63300AA5377 /* AlertContainerUpdatable.swift in Sources */,
@@ -630,7 +611,6 @@
 				E3D6A74827C4E5F000AA5377 /* RNEdgesToSuperview.swift in Sources */,
 				E3D6A72427C4417100AA5377 /* UIView+Layout.swift in Sources */,
 				E3D6A75827C4E5F000AA5377 /* RNEqualSides.swift in Sources */,
-				E3D6A70827C1AB7600AA5377 /* HttpHeaders.swift in Sources */,
 				E3D6A71627C43F0700AA5377 /* TouchAreaExtending.swift in Sources */,
 				E3D6A75B27C4E5F000AA5377 /* RNHeight.swift in Sources */,
 				E3D6A75527C4E5F000AA5377 /* RNRightToView.swift in Sources */,
@@ -991,6 +971,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E30F2EEF27C6BD3100776ACE /* BackendTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BackendTalk;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E3D6A6C027C17E0D00AA5377 /* AnyUse.xcdatamodeld */ = {

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import BackendTalk
 
 protocol FlagService {
     func fetchFlags() async throws -> [Flag]

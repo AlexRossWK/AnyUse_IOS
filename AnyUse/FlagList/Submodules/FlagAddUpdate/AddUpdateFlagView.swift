@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BackendTalk
 
 struct AddUpdateFlagView: View {
     @ObservedObject var viewModel: AddUpdateFlagViewModel

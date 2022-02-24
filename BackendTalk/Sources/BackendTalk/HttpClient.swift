@@ -7,8 +7,8 @@
 
 import Foundation
 
-class HttpClient {
-    func get<T: Codable>(url: URL) async throws -> [T] {
+public class HttpClient {
+    public func get<T: Codable>(url: URL) async throws -> [T] {
         let (data, response) = try await URLSession.shared.data(from: url)
         
         guard (response as? HTTPURLResponse)?.statusCode == 200 else {
@@ -22,7 +22,7 @@ class HttpClient {
         return object
     }
     
-    func post<T: Codable>(url: URL, object: T) async throws {
+    public func post<T: Codable>(url: URL, object: T) async throws {
         var request = URLRequest(url: url)
         request.httpMethod = HttpMethods.post.rawValue
         request.addValue(MimeType.json.rawValue, forHTTPHeaderField: HttpHeaders.contentType.rawValue)
@@ -35,7 +35,7 @@ class HttpClient {
         }
     }
     
-    func put<T: Codable>(url: URL, object: T) async throws {
+    public func put<T: Codable>(url: URL, object: T) async throws {
         var request = URLRequest(url: url)
         request.httpMethod = HttpMethods.put.rawValue
         request.addValue(MimeType.json.rawValue, forHTTPHeaderField: HttpHeaders.contentType.rawValue)
@@ -48,7 +48,7 @@ class HttpClient {
         }
     }
     
-    func delete(url: URL) async throws {
+    public func delete(url: URL) async throws {
         var request = URLRequest(url: url)
         request.httpMethod = HttpMethods.delete.rawValue
         let (_, response) = try await URLSession.shared.data(for: request)
@@ -56,4 +56,6 @@ class HttpClient {
             throw HttpError.badResponse
         }
     }
+    
+    public init() {}
 }
