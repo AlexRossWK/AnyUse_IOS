@@ -7,6 +7,7 @@
 
 import UIKit
 import BackendTalk
+import UIKitExtensions
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     var assemblies: Assemblies?
