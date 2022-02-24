@@ -11,6 +11,11 @@
 		E30F2EF727C77D2200776ACE /* UIKitExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = E30F2EF627C77D2200776ACE /* UIKitExtensions */; };
 		E30F2EF927C77D2D00776ACE /* UIRelationship in Frameworks */ = {isa = PBXBuildFile; productRef = E30F2EF827C77D2D00776ACE /* UIRelationship */; };
 		E30F2EFC27C77DDD00776ACE /* UIKitAlerts in Frameworks */ = {isa = PBXBuildFile; productRef = E30F2EFB27C77DDD00776ACE /* UIKitAlerts */; };
+		E33DEA1D27C787220009FD1E /* AppConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DEA1C27C787220009FD1E /* AppConfigurations.swift */; };
+		E33DEA1F27C787650009FD1E /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DEA1E27C787650009FD1E /* AppAppearance.swift */; };
+		E33DEA2127C7885C0009FD1E /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DEA2027C7885C0009FD1E /* AppFlowCoordinator.swift */; };
+		E33DEA2327C788A20009FD1E /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DEA2227C788A20009FD1E /* AppDIContainer.swift */; };
+		E33DEA2627C7A6520009FD1E /* BackendTalkV2 in Frameworks */ = {isa = PBXBuildFile; productRef = E33DEA2527C7A6520009FD1E /* BackendTalkV2 */; };
 		E3D6A6B627C17E0A00AA5377 /* AnyUseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6B527C17E0A00AA5377 /* AnyUseApp.swift */; };
 		E3D6A6B827C17E0A00AA5377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6A6B727C17E0A00AA5377 /* ContentView.swift */; };
 		E3D6A6BA27C17E0D00AA5377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D6A6B927C17E0D00AA5377 /* Assets.xcassets */; };
@@ -57,6 +62,11 @@
 		E30F2EF427C77BDE00776ACE /* UIRelationship */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIRelationship; sourceTree = "<group>"; };
 		E30F2EF527C77C3E00776ACE /* UIKitExtensions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIKitExtensions; sourceTree = "<group>"; };
 		E30F2EFA27C77DB800776ACE /* UIKitAlerts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIKitAlerts; sourceTree = "<group>"; };
+		E33DEA1C27C787220009FD1E /* AppConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurations.swift; sourceTree = "<group>"; };
+		E33DEA1E27C787650009FD1E /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		E33DEA2027C7885C0009FD1E /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		E33DEA2227C788A20009FD1E /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		E33DEA2427C7A07B0009FD1E /* BackendTalkV2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BackendTalkV2; sourceTree = "<group>"; };
 		E3D6A6B227C17E0A00AA5377 /* AnyUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D6A6B527C17E0A00AA5377 /* AnyUseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUseApp.swift; sourceTree = "<group>"; };
 		E3D6A6B727C17E0A00AA5377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E30F2EFC27C77DDD00776ACE /* UIKitAlerts in Frameworks */,
+				E33DEA2627C7A6520009FD1E /* BackendTalkV2 in Frameworks */,
 				E30F2EF927C77D2D00776ACE /* UIRelationship in Frameworks */,
 				E30F2EF027C6BD3100776ACE /* BackendTalk in Frameworks */,
 				E30F2EF727C77D2200776ACE /* UIKitExtensions in Frameworks */,
@@ -131,6 +142,7 @@
 		E3D6A6A927C17E0A00AA5377 = {
 			isa = PBXGroup;
 			children = (
+				E33DEA2427C7A07B0009FD1E /* BackendTalkV2 */,
 				E30F2EFA27C77DB800776ACE /* UIKitAlerts */,
 				E30F2EF527C77C3E00776ACE /* UIKitExtensions */,
 				E30F2EF427C77BDE00776ACE /* UIRelationship */,
@@ -156,7 +168,7 @@
 		E3D6A6B427C17E0A00AA5377 /* AnyUse */ = {
 			isa = PBXGroup;
 			children = (
-				E3D6A6EB27C189FC00AA5377 /* Main */,
+				E3D6A6EB27C189FC00AA5377 /* Application */,
 				E30F2EFD27C77DF200776ACE /* Features */,
 				E3D6A6F327C18E6200AA5377 /* Utilities */,
 				E3D6A6BB27C17E0D00AA5377 /* Preview Content */,
@@ -199,18 +211,22 @@
 			path = FlagList;
 			sourceTree = "<group>";
 		};
-		E3D6A6EB27C189FC00AA5377 /* Main */ = {
+		E3D6A6EB27C189FC00AA5377 /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				E3D6A6B527C17E0A00AA5377 /* AnyUseApp.swift */,
 				E3D6A71127C2D20E00AA5377 /* AppDelegate.swift */,
+				E33DEA1C27C787220009FD1E /* AppConfigurations.swift */,
+				E33DEA2027C7885C0009FD1E /* AppFlowCoordinator.swift */,
+				E33DEA1E27C787650009FD1E /* AppAppearance.swift */,
+				E33DEA2227C788A20009FD1E /* AppDIContainer.swift */,
 				E3D6A70F27C2D16300AA5377 /* Assemblies.swift */,
 				E3D6A6B727C17E0A00AA5377 /* ContentView.swift */,
 				E3D6A6B927C17E0D00AA5377 /* Assets.xcassets */,
 				E3D6A6BE27C17E0D00AA5377 /* Persistence.swift */,
 				E3D6A6C027C17E0D00AA5377 /* AnyUse.xcdatamodeld */,
 			);
-			path = Main;
+			path = Application;
 			sourceTree = "<group>";
 		};
 		E3D6A6F327C18E6200AA5377 /* Utilities */ = {
@@ -289,6 +305,7 @@
 				E30F2EF627C77D2200776ACE /* UIKitExtensions */,
 				E30F2EF827C77D2D00776ACE /* UIRelationship */,
 				E30F2EFB27C77DDD00776ACE /* UIKitAlerts */,
+				E33DEA2527C7A6520009FD1E /* BackendTalkV2 */,
 			);
 			productName = AnyUse;
 			productReference = E3D6A6B227C17E0A00AA5377 /* AnyUse.app */;
@@ -406,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3D6A71227C2D20E00AA5377 /* AppDelegate.swift in Sources */,
+				E33DEA1F27C787650009FD1E /* AppAppearance.swift in Sources */,
 				E3D6A6C227C17E0D00AA5377 /* AnyUse.xcdatamodeld in Sources */,
 				E3D6A6F527C18E7000AA5377 /* Constants.swift in Sources */,
 				E3D6A70027C1A60900AA5377 /* AddUpdateFlagView.swift in Sources */,
@@ -416,11 +434,14 @@
 				E3D6A6B827C17E0A00AA5377 /* ContentView.swift in Sources */,
 				E3D6A70C27C2CCFD00AA5377 /* FlagListAssembly.swift in Sources */,
 				E3D6A70227C1A63E00AA5377 /* AddUpdateFlagViewModel.swift in Sources */,
+				E33DEA2127C7885C0009FD1E /* AppFlowCoordinator.swift in Sources */,
 				E3D6A6E627C1804600AA5377 /* FlagListView.swift in Sources */,
+				E33DEA2327C788A20009FD1E /* AppDIContainer.swift in Sources */,
 				E3D6A70E27C2CD0F00AA5377 /* AddUpdateFlagAssembly.swift in Sources */,
 				E3D6A71027C2D16300AA5377 /* Assemblies.swift in Sources */,
 				E3D6A6B627C17E0A00AA5377 /* AnyUseApp.swift in Sources */,
 				E3D6A6F227C18E1100AA5377 /* FlagService.swift in Sources */,
+				E33DEA1D27C787220009FD1E /* AppConfigurations.swift in Sources */,
 				E3D6A6F727C1A36C00AA5377 /* FlagListRouteType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,6 +788,10 @@
 		E30F2EFB27C77DDD00776ACE /* UIKitAlerts */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UIKitAlerts;
+		};
+		E33DEA2527C7A6520009FD1E /* BackendTalkV2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BackendTalkV2;
 		};
 /* End XCSwiftPackageProductDependency section */
 
